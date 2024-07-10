@@ -1,0 +1,214 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.wrapper
+{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+h1
+{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 70px;
+    background-color: #c59d5f;
+    color: white;
+}
+h2
+{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 60px;
+    color: #c59d5f;
+}
+.tiret
+{
+    border-bottom: 5px solid #c59d5f;
+    width: 100px;
+    margin: 40px auto 40px auto;
+}
+
+/* APPETIZERS */
+#appetizers
+{
+    margin-top: 150px;
+}
+.appetizers
+{
+    margin-top: 50px;
+    display: flex;
+}
+.app img
+{
+    width: 340px;
+    height: 400px;
+    margin-bottom: 30px;
+    
+}
+ul
+{
+    list-style: none;
+    text-align: center;
+    padding-right: 70px;
+}
+strong
+{
+    color: #c59d5f;
+    font-size: 30px;
+    text-align: center;
+}
+p
+{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Main Courses */
+#main-courses
+{
+    margin-top: 150px;
+}
+.main-courses
+{
+    margin-top: 50px;
+    display: flex;
+}
+.m-c img
+{
+    width: 340px;
+    height: 400px;
+    margin-bottom: 30px;
+    
+}
+ul
+{
+    list-style: none;
+    text-align: center;
+    padding-right: 70px;
+}
+strong
+{
+    color: #c59d5f;
+    font-size: 30px;
+    text-align: center;
+}
+p
+{
+    font-size: 18px;
+}
+
+/* DESSERTS */
+#desserts
+{
+    margin-top: 150px;
+}
+.desserts
+{
+    margin-top: 50px;
+    display: flex;
+}
+.dess img
+{
+    width: 340px;
+    height: 400px;
+    margin-bottom: 30px;
+
+    
+}
+
+img:hover{
+    transition: 0.5s;
+    scale: 1.05;
+}
+ul
+{
+    list-style: none;
+    text-align: center;
+    padding-right: 70px;
+}
+strong
+{
+    color: #c59d5f;
+    font-size: 30px;
+    text-align: center;
+}
+p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.link
+{
+    text-align: center;
+    margin-top: 130px;
+    background-color: #c59d5f;
+    border-radius: 30px;
+    height: 30px;
+    width: 250px;
+    text-align: center;
+    padding: 10px 10px 0 10px;
+}
+.link a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.link a:hover
+{
+    color: black;
+}
+
+/* CONTACT */
+input[type="text"], [type="email"] {
+    margin-top: 70px;
+    background-color: #c59d5f;
+    color: white !important;
+    width: 537px;
+    padding: 20px;
+    font-size: 18px;
+    margin-right: 20px;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 40px;
+    outline: none;
+}
+input[type=""] {
+    background-color: #c59d5f;
+    color: white;
+    width: 1139px;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 20px;
+    outline: none;
+}
+textarea {
+    background-color: #c59d5f;
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 20px;
+    outline: none;
+}
+input[type="submit"] {
+    background-color: #c59d5f;
+    color: white;
+    text-align: center;
+    padding: 13px 40px;
+    font-size: 15px;
+    border: none;
+    border-radius: 50px;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #ffffff;
+    opacity: 0.3;
+}
